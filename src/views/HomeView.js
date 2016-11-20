@@ -1,4 +1,5 @@
 import React from 'react'
+import Images from '../components/react-image-gallery/ImgGallery'
 
 class HomeView extends React.Component {
   constructor (props) {
@@ -12,7 +13,7 @@ class HomeView extends React.Component {
   render () {
     return (
       <div>
-        <input onChange={this.handleChange} ref='input' type='text' />
+        <Images/>
         <table className='table' >
           <caption>Optional table caption.</caption>
           <thead>
