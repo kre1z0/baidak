@@ -10,11 +10,22 @@ class CoreLayout extends React.Component {
 
   render () {
     return (
-      <div className='container' >
-        <Header />
-        {this.props.children}
-        <Footer />
+      <div>
+        <div className='container-header' >
+          <div className='container' >
+            <Header />
+          </div>
+        </div>
+        <div className='container' >
+          {this.props.children}
+        </div>
+        <div className='container-footer' >
+          <div className='container' >
+            <Footer />
+          </div>
+        </div>
       </div>
+
     )
   }
 }

@@ -1,13 +1,12 @@
 import React from 'react'
-import ImageGallery from 'react-image-gallery'
 import './image-gallery.scss'
+import ImageGallery from 'react-image-gallery' // https://github.com/xiaolin/react-image-gallery
 
 const PREFIX_URL = 'https://raw.githubusercontent.com/xiaolin/react-image-gallery/master/static/'
 
 class Images extends React.Component {
-
-  constructor () {
-    super()
+  constructor (props) {
+    super(props)
     this.state = {
       showIndex: true,
       slideOnThumbnailHover: false,

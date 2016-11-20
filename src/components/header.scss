@@ -1,3 +1,19 @@
 .header {
-  margin-top: 5px;
+  ul {
+    li {
+      display: inline-block;
+      .header_logo {
+
+      }
+      a {
+        padding: 0 10px;
+        color: #fff;
+        display: inline-block;
+        &.active {
+          background-color: #fff;
+          color: #070707;
+        }
+      }
+    }
+  }
 }

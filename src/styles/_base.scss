@@ -1,5 +1,45 @@
 @import "variables";
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #f7f7f7;
+}
+
+a {
+  text-decoration: none
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 button {
   outline: none;
 }
+
+.container-header,
+.container-footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background: #d5d5d5;
+}
+
+.container-header {
+  margin-bottom: 10px;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+
