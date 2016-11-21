@@ -1,0 +1,24 @@
+@import "../styles/variables";
+
+.youtube_list {
+  display: flex;
+  flex-wrap: nowrap;
+  .youtube_list_item {
+    text-align: center;
+    padding: 10px 10px 0 10px;
+    cursor: pointer;
+    img {
+      width: 88px;
+      height: 88px;
+      display: block;
+    }
+    &.active {
+      color: $ig-blue;
+      cursor: default;
+      background-color: lighten( $ig-blue, 44% );
+      padding: 9px 9px 0 9px;
+      border: 1px solid $ig-blue;
+      border-radius: 3px;
+    }
+  }
+}

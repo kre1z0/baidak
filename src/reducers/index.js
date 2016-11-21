@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux'
-import Sorting from './Sorting'
+import Youtube from './Youtube'
 
 const rootReducer = combineReducers({
-  tableState: Sorting
+  Video: Youtube
 })
 
 export default rootReducer

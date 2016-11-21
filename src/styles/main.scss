@@ -1,4 +1,6 @@
-@import "vendor/normalize";
-@import "helpers";
-@import "base";
-@import "media";
+@import "vendor/_normalize";
+@import "variables";
+@import "_typography";
+@import "_helpers";
+@import "_base";
+@import "_media";

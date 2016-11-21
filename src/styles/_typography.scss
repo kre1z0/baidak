@@ -1,0 +1,82 @@
+html {
+  color: $ig-black;
+  font-size: 1em;
+  line-height: 1.4;
+  background: #fff;
+}
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+body {
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: $ig-black;
+  line-height: 1.4666;
+  min-width: 320px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: $ig-blue;
+  text-decoration: underline;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 1.1;
+  margin: 0 0 20px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 22px;
+  line-height: 1.1;
+  margin: 15px 0;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 1.1;
+  margin: 15px 0;
+  font-weight: 500;
+}
+
+h4, h5, h6 {
+  font-size: 14px;
+  line-height: 1.1;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+ul {
+  list-style: outside url(../static/images/list.png);
+  margin: 15px 0;
+  padding: 0 0 0 37px;
+
+  li {
+    margin: 0 0 10px;
+  }
+}
+
+
+
+

@@ -7,19 +7,21 @@ class CoreLayout extends React.Component {
   static propTypes = {
     children: React.PropTypes.element
   }
-
+  componentDidMount () {
+    
+  }
   render () {
     return (
-      <div>
+      <div className='clearfix'>
         <div className='container-header' >
           <div className='container' >
             <Header />
           </div>
         </div>
-        <div className='container' >
+        <div className='container main' >
           {this.props.children}
         </div>
-        <div className='container-footer' >
+        <div className='container-footer clearfix' >
           <div className='container' >
             <Footer />
           </div>
